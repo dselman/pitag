@@ -1,0 +1,17 @@
+begin
+   prog = irexec
+   button = KEY_1
+   config = echo "You pressed one"
+end
+
+begin
+   prog = laser
+   button = KEY_1
+   config = 1
+end
+
+begin 
+   prog = laser
+   button = KEY_2
+   config = 2
+end
