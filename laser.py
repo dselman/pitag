@@ -100,7 +100,7 @@ if __name__ == "__main__":
     try:
         irlistener.activate()
     except lirc.InitError:
-        print("Could not initialise IR, running without IR contorls.")
+        print("Could not initialise IR, running without IR controls.")
         irlistener_activated = False
     else:
         irlistener_activated = True
